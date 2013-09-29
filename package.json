@@ -1,0 +1,20 @@
+{
+  "name": "ise-fe-model",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lge88/ise-fe-model.git"
+  },
+  "dependencies": {
+    "backbone": "~1.0.0",
+    "uuid": "git+https://github.com/lge88/uuid.git",
+    "composable": "git+https://github.com/lge88/composable.git",
+    "flatten": "git+https://github.com/lge88/flatten.git",
+    "extend": "git+https://github.com/lge88/extend.git",
+    "factory": "git+https://github.com/lge88/factory.git"
+  },
+  "devDependencies": {
+    "expect.js": "*"
+  },
+  "main": "lib/index.js"
+}

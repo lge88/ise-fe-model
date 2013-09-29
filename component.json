@@ -1,0 +1,79 @@
+{
+  "name": "ise-fe-model",
+  "repo": "lge88/ise-fe-model",
+  "description": "ise-fe-model",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "lge88/backbone": "*",
+    "lge88/uuid": "*",
+    "lge88/composable": "*",
+    "lge88/flatten": "*",
+    "lge88/extend": "*",
+    "lge88/factory": "*"
+  },
+  "development": {
+    "lge88/expect.js": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lge88/ise-fe-model.git"
+  },
+  "_examples": "https://github.com/lge88/ise-fe-model/tree/master/examples",
+  "_test": "https://github.com/lge88/ise-fe-model/tree/master/test",
+  "_homepage": "https://github.com/lge88/ise-fe-model",
+  "scripts": [
+    "lib/index.js",
+    "lib/Base.js",
+    "lib/base-protos/path.js",
+    "lib/base-protos/uuid.js",
+    "lib/base-protos/to-json.js",
+    "lib/base-protos/plugable.js",
+    "lib/base-protos/add-to-fe-model.js",
+    "lib/base-protos/type.js",
+    "lib/base-protos/set.js",
+    "lib/classes/index.js",
+    "lib/classes/TrussBlock.js",
+    "lib/classes/FeNode.js",
+    "lib/BaseCollection.js",
+    "lib/protos/uuid.js",
+    "lib/protos/factory.js",
+    "lib/protos/routes.js",
+    "lib/protos/to-json.js",
+    "lib/protos/plugable.js",
+    "lib/protos/crud.js",
+    "lib/protos/factory.marshall.js",
+    "lib/plugins/uuid.js",
+    "lib/plugins/plugable.js",
+    "lib/plugins/crud.js"
+  ],
+  "styles": [],
+  "main": "lib/index.js",
+  "_rename_": [
+    "component.json",
+    "package.json",
+    "Makefile",
+    "examples/index.html",
+    "examples/main.js",
+    "examples/main.css",
+    "test/index.html",
+    "test/test.js"
+  ],
+  "_ise_paths_": [
+    "lib",
+    "lib-client"
+  ],
+  "_auto_update_file_list_": {
+    "folders": [
+      "lib"
+    ]
+  },
+  "_auto_index_files_": [
+    "lib/classes/index.js"
+  ],
+  "paths": [
+    "/home/GL/Develop/js/ise/lib",
+    "/home/GL/Develop/js/ise/lib-client"
+  ],
+  "remotes": []
+}
